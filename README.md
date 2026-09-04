@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bniladridas/kit/main/.github/assets/thumbnail.png" alt="kit" width="100%">
+</p>
+
 # Kit
 
 A lightweight developer CLI built with Go for working with Git hosting platforms from the terminal.
