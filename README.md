@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Coccinella-Labs/go-kit/main/.github/assets/thumbnail.png" alt="go-kit" width="100%">
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/bniladridas/kit/main/.github/assets/thumbnail.png" alt="kit" width="100%">
 </p>
 
