@@ -12,7 +12,7 @@
 Please report security issues privately.
 
 - Do not open a public issue.
-- Email security concerns to bniladridas@icloud.com.
+- Email security concerns to coccinella.labs@icloud.com.
 - Include the affected version, a description of the issue, and steps to reproduce.
 - We will acknowledge your report within 3 business days and aim to provide an update within 10 business days.
 
