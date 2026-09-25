@@ -34,7 +34,7 @@ This project adheres to a [Code of Conduct](CODE_OF_CONDUCT.md). By participatin
 ## Development Setup
 
 ```bash
-git clone https://github.com/bniladridas/kit.git
+git clone https://github.com/coccinella-labs/kit.git
 cd kit
 make build
 make test
