@@ -10,12 +10,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/bniladridas/kit/internal/exitcode"
+	"github.com/coccinella-labs/go-kit/internal/exitcode"
 	"github.com/spf13/cobra"
 )
 
 const (
-	githubAPIURL = "https://api.github.com/repos/bniladridas/kit/releases/latest"
+	githubAPIURL = "https://api.github.com/repos/coccinella-labs/go-kit/releases/latest"
 )
 
 type InstallMethod string
@@ -71,21 +71,21 @@ func runUpdate(cmd *cobra.Command, args []string) error {
 	case InstallMethodHomebrew:
 		cmd.Println("  brew upgrade kit")
 	case InstallMethodGo:
-		cmd.Println("  go install github.com/bniladridas/kit/cmd/kit@latest")
+		cmd.Println("  go install github.com/coccinella-labs/go-kit/cmd/kit@latest")
 	case InstallMethodScript:
-		cmd.Println("  curl -fsSL https://raw.githubusercontent.com/bniladridas/kit/main/scripts/install.sh | sh")
+		cmd.Println("  curl -fsSL https://raw.githubusercontent.com/coccinella-labs/go-kit/main/scripts/install.sh | sh")
 	case InstallMethodManual:
 		cmd.Println("  Download the latest release from:")
-		cmd.Println("  https://github.com/bniladridas/kit/releases/latest")
+		cmd.Println("  https://github.com/coccinella-labs/go-kit/releases/latest")
 		cmd.Println()
 		cmd.Println("  Then replace the binary manually.")
 	default:
-		cmd.Println("  Visit https://github.com/bniladridas/kit/releases/latest")
+		cmd.Println("  Visit https://github.com/coccinella-labs/go-kit/releases/latest")
 		cmd.Println("  and download the appropriate binary for your platform.")
 	}
 
 	cmd.Println()
-	cmd.Println("For more installation options, see: https://github.com/bniladridas/kit#installation")
+	cmd.Println("For more installation options, see: https://github.com/coccinella-labs/go-kit#installation")
 
 	return nil
 }

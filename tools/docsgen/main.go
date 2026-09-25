@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bniladridas/kit/internal/commands"
+	"github.com/coccinella-labs/go-kit/internal/commands"
 	"github.com/spf13/cobra/doc"
 )
 

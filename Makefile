@@ -2,7 +2,7 @@
 
 VERSION ?= 0.1.0
 GOCMD = go
-GOFLAGS = -ldflags "-X github.com/bniladridas/kit/cmd/kit.Version=$(VERSION)"
+GOFLAGS = -ldflags "-X github.com/coccinella-labs/go-kit/cmd/kit.Version=$(VERSION)"
 BINARY = kit
 
 all: build

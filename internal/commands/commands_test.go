@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bniladridas/kit/internal/auth"
+	"github.com/coccinella-labs/go-kit/internal/auth"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

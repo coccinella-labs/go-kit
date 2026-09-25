@@ -3,8 +3,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/bniladridas/kit/internal/auth"
-	"github.com/bniladridas/kit/internal/exitcode"
+	"github.com/coccinella-labs/go-kit/internal/auth"
+	"github.com/coccinella-labs/go-kit/internal/exitcode"
 	"github.com/spf13/cobra"
 )
 

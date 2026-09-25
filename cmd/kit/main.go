@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bniladridas/kit/internal/commands"
-	"github.com/bniladridas/kit/internal/exitcode"
+	"github.com/coccinella-labs/go-kit/internal/commands"
+	"github.com/coccinella-labs/go-kit/internal/exitcode"
 )
 
 var Version = "1.0.0"

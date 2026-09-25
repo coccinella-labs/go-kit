@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/bniladridas/kit/internal/config"
+	"github.com/coccinella-labs/go-kit/internal/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

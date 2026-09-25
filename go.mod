@@ -1,4 +1,4 @@
-module github.com/bniladridas/kit
+module github.com/coccinella-labs/go-kit
 
 go 1.23.0
 

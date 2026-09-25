@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="bniladridas/kit"
+REPO="coccinella-labs/go-kit"
 INSTALL_DIR="${KIT_INSTALL_DIR:-$HOME/.local/bin}"
 BIN_NAME="kit"
 TMPDIR=""

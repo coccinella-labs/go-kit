@@ -20,7 +20,7 @@ A lightweight developer CLI built with Go for working with Git hosting platforms
 ### Homebrew
 
 ```bash
-brew install bniladridas/kit/kit
+brew install coccinella-labs/kit/kit
 ```
 
 For Homebrew installation, see:
@@ -31,21 +31,21 @@ https://github.com/coccinella-labs/homebrew-kit
 For Linux and macOS:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/coccinella-labs/kit/main/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/coccinella-labs/go-kit/main/scripts/install.sh | sh
 ```
 
 ### Go
 
 ```bash
-go install github.com/coccinella-labs/kit/cmd/kit@latest
+go install github.com/coccinella-labs/go-kit/cmd/kit@latest
 ```
 
 ### Manual Download
 
-Download the binary from the [latest release](https://github.com/coccinella-labs/kit/releases/latest) and move it to your PATH.
+Download the binary from the [latest release](https://github.com/coccinella-labs/go-kit/releases/latest) and move it to your PATH.
 
 ```bash
-curl -fsSL https://github.com/coccinella-labs/kit/releases/download/v1.0.0/kit-linux-amd64 -o kit
+curl -fsSL https://github.com/coccinella-labs/go-kit/releases/download/v1.0.0/kit-linux-amd64 -o kit
 chmod +x kit
 sudo mv kit /usr/local/bin
 ```
@@ -61,7 +61,7 @@ Checks for a newer version and suggests the correct update command. It does not 
 | Installed with | Update command                                     |
 |----------------|---------------------------------------------------|
 | Homebrew       | `brew upgrade kit`                                |
-| Go             | `go install github.com/coccinella-labs/kit/cmd/kit@latest` |
+| Go             | `go install github.com/coccinella-labs/go-kit/cmd/kit@latest` |
 | Install script | Run the install script again                      |
 | Manual download| Download the latest release and replace the binary |
 
@@ -202,7 +202,7 @@ kit version 1.0.0
 ## Development
 
 ```bash
-git clone https://github.com/coccinella-labs/kit.git
+git clone https://github.com/coccinella-labs/go-kit.git
 cd kit
 make build
 make test

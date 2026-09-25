@@ -3,8 +3,8 @@ package commands
 import (
 	"testing"
 
-	"github.com/bniladridas/kit/internal/auth"
-	"github.com/bniladridas/kit/internal/exitcode"
+	"github.com/coccinella-labs/go-kit/internal/auth"
+	"github.com/coccinella-labs/go-kit/internal/exitcode"
 	"github.com/stretchr/testify/assert"
 )
 

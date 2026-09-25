@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bniladridas/kit/internal/api"
-	"github.com/bniladridas/kit/internal/auth"
-	"github.com/bniladridas/kit/internal/config"
-	"github.com/bniladridas/kit/internal/git"
+	"github.com/coccinella-labs/go-kit/internal/api"
+	"github.com/coccinella-labs/go-kit/internal/auth"
+	"github.com/coccinella-labs/go-kit/internal/config"
+	"github.com/coccinella-labs/go-kit/internal/git"
 	"github.com/spf13/cobra"
 )
 

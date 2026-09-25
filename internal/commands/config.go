@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/bniladridas/kit/internal/config"
+	"github.com/coccinella-labs/go-kit/internal/config"
 	"github.com/spf13/cobra"
 )
 
